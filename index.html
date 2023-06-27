@@ -54,12 +54,20 @@
 
             <!--hero section -->
             <section class="hero">
-                <div class="container">
+                <div class="hero-container container">
                     <h1 class="hero-title">Effective Solutions <br> for Your Business</h1>
-                    <button class="button" type="button">Order Service</button>
+                    <button data-modal-open class="button" type="button">Order Service</button>
+                    <div class="backdrop is-hidden" data-modal>
+                        <div class="modal">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt mollitia labore nam facilis aperiam.</p>
+                            <button data-modal-close>close</button>
+                        </div>
+                    </div>
+                    
                 </div>
 
-            </section>
+            
+on>
 
             <!-- feature section -->
             <section class="section-feature">
@@ -67,6 +75,9 @@
                     <h2 class="section-feature-title visually-hidden">Lorem ipsum dolor sit.</h2>
                     <ul class="feature-list list">
                         <li class="feature">
+                            <svg class="feature-icon" width="64" height="64">
+                                <use href="./images/icons.svg/icons.svg#Logo"><use/>
+                            </svg>
                             <h3 class="feature-title">Strategy</h3>
                             <p class="feature-text">
                                 Our goal is to identify the business problem to walk away with the perfect and creative
@@ -131,7 +142,11 @@
                             <div class="info">
                                 <h3 class="team-title">Mark Guerrero</h3>
                                 <p class="team-text">Product Designer</p>
+                                <svg class="team-icon" width="40" height="40">
+                                    <use href="./images/icons.svg#instagram"><use/>
+                                </svg>
                             </div>
+                            
 
                         </li>
                         <li class="team-card">
@@ -162,6 +177,9 @@
                 </div>
 
             </section>
+            
+            <!-- customers section -->
+            <section class="customers"></section>
         </main>
 
         <!-- footer section -->
@@ -178,8 +196,12 @@
 
         </footer>
 
-   
+ <script src="./js/modal.js"></script>
 
+
+  
 </body>
+
+
 
 </html>
