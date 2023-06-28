@@ -57,12 +57,6 @@
                 <div class="hero-container container">
                     <h1 class="hero-title">Effective Solutions <br> for Your Business</h1>
                     <button data-modal-open class="button" type="button">Order Service</button>
-                    <div class="backdrop is-hidden" data-modal>
-                        <div class="modal">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt mollitia labore nam facilis aperiam.</p>
-                            <button data-modal-close>close</button>
-                        </div>
-                    </div>
                     
                 </div>
             </section>    
@@ -434,9 +428,20 @@
                 </div>
                 
             </div>
-
-
         </footer>
+
+        <!--modal-window-->
+
+        <div class="modal-window-container  is-hidden" data-modal>
+            
+            <div class="modal-window">
+                <button class="btn-modal-close" type="button" data-modal-close>
+                    <svg class="modal-icon" width="8" height="8">
+                        <use href="./images/icons.svg#close"></use>
+                    </svg>
+                </button>
+            </div>
+        </div>
 
  <script src="./js/modal.js"></script>
 
