@@ -514,13 +514,11 @@ img {
 
 }
 
-.customers-link:hover .customers-icon{
-    fill: #404BBF
-    
-}
+
 
 .customers-icon{
     fill: currentColor;
+    fill: #404BBF
    
 
 }
