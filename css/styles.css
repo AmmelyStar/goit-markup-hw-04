@@ -176,7 +176,6 @@ img {
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
-    
 
  } 
 .nav-item .link:hover,
@@ -309,6 +308,17 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.container-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+
 }
 
 /*section about */
