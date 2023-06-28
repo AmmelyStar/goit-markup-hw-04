@@ -184,7 +184,7 @@ img {
     border-radius: 2px;
     width: 48px;
     height: 4px;
-    margin-bottom: -20px;   
+     
 
  } 
 
@@ -535,6 +535,16 @@ img {
 }
 
 
+.button-item:hover,
+.button-item:focus{
+    border-radius: 4px;
+    background: var(--ocean, #404BBF);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+      0px 2px 1px 0px rgba(0, 0, 0, 0.08), 
+     0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
+
+
 
 .btn {
     font-family: "Roboto", sans-serif;
@@ -568,8 +578,16 @@ img {
     row-gap: 48px;
 }
 
-.product-item {
+.product-item{
     width: calc((100% - 48px) / 3);
+}
+
+.product-item:hover {
+    border: 1px solid var(--cloud, #F4F4FD);
+    background: var(--white, #FFF);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 
+     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .product-name {
