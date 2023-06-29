@@ -180,8 +180,13 @@ img {
     left: 0;
     position: absolute;
      
-     
 }
+
+.nav-link.active{
+    color: #404bbf;
+}
+
+
 
 
 .list {
